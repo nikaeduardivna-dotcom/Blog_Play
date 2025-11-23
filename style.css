@@ -1,0 +1,60 @@
+.header {
+     background: #3313eb;
+background: radial-gradient(circle, rgba(51, 19, 235, 1) 0%, rgba(176, 7, 139, 1) 50%, rgba(194, 45, 0, 1) 100%);
+text-align: center;
+padding: 15px;
+margin-bottom: 50px;
+}
+
+.header-logo {
+    height: 100px;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(190, 190, 190);
+    font-family: "Pacifico", cursive
+}
+
+img {
+    display: inline-block;
+}
+
+.card {
+    background-color: aliceblue;
+    width: 650px;
+    padding: 15px;
+    border-radius:   10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+background-color: crimson;
+padding: 80px;
+display: flex;
+justify-content: center;
+}
+
+.social {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.social:hover {
+    background-color: darkred;
+}
